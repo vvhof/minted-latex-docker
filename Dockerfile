@@ -13,4 +13,4 @@ RUN apt-get autoremove && apt-get clean && rm -rf /var/lib/apt/lists/* /tmp/* /v
 
 VOLUME inputData/
 WORKDIR /inputData/
-ENTRYPOINT ["pdflatex", "-shell-escape"]
+ENTRYPOINT ["latexmk", "-shell-escape"]
