@@ -3,7 +3,7 @@
 A Docker Image to compile .tex including minted
 ## Usage
 
-###Volumes 
+### Volumes 
 /inputData
 
 ### command parameter
